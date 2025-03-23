@@ -1,0 +1,21 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "index.html",
+    "./public/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        'burgandy': '#2D343F',
+        'purp': '#5B6466'
+      },
+      backgroundImage: {
+        'profile': "url('../images/kinpe.jpg')"
+      }
+    },
+    
+  },
+
+  plugins: [],
+}
+
